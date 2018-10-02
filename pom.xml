@@ -34,4 +34,28 @@
       </plugin>
     </plugins>
   </build>
+<scm>
+   <connection>scm:git:git@github.com:kiran009/simple-java-maven-app.git</connection>
+   <url>scm:git:git@github.com:kiran009/simple-java-maven-app.git</url>
+   <developerConnection>scm:git:git@github.com:kiran009/simple-java-maven-app.git</developerConnection>
+  <tag>HEAD</tag>
+  </scm>
+<pluginRepositories>
+        <pluginRepository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>jaanu-B85M-DS3H-A-releases</name>
+            <url>http://localhost:8081/artifactory/maven-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>jaanu-B85M-DS3H-A-snapshots</name>
+            <url>http://localhost:8081/artifactory/maven-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
